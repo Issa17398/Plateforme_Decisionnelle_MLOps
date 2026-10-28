@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: dim_channels
+    description: "Dimension référentiel des chaînes audiovisuelles sénégalaises"
+    columns:
+      - name: channel_id
+        description: "Clé primaire immuable de la chaîne"
+        tests:
+          - unique
+          - not_null
+
+      - name: channel_title
+        description: "Nom de la chaîne créatrice"
+        tests:
+          - not_null
+
+      - name: total_videos
+        description: "Nombre total de vidéos publiées"
+        tests:
+          - not_null
+
+  - name: fct_videos_performance
+    description: "Table de faits centrale mesurant l'audience et l'engagement de chaque vidéo"
+    columns:
+      - name: video_id
+        description: "Clé primaire unique de la vidéo"
+        tests:
+          - unique
+          - not_null
+
+      - name: channel_id
+        description: "Clé étrangère vers dim_channels"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_channels')
+              field: channel_id
+
+      - name: content_type
+        description: "Classification métier du type de contenu"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['TEASER', 'EPISODE', 'SHORT', 'OTHER']
+
+      - name: duration_category
+        description: "Segmentation métier par durée"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['< 1 min (Short)', '1-5 min (Teaser/Clip)', '5-20 min (Moyen format)', '> 20 min (Épisode long)']
+
+      - name: published_at
+        description: "Horodatage UTC officiel de publication"
+        tests:
+          - not_null
+
+      - name: view_count
+        description: "Nombre cumulé de vues publiques"
+        tests:
+          - not_null
+
+      - name: is_weekend
+        description: "Indicateur de publication pendant le week-end"
+        tests:
+          - not_null

@@ -1,0 +1,23 @@
+# Client HTTP pour consommer l'API REST de YouTube
+requests>=2.31.0
+
+# Gestion sécurisée des variables d'environnement (.env)
+python-dotenv>=1.0.0
+
+# Framework de tests unitaires et d'intégration
+pytest>=8.0.0
+
+# Couche Silver : moteur SQL analytique local (OLAP) et manipulation Parquet
+duckdb>=1.0.0
+pyarrow>=15.0.0
+
+# Couche Gold : modélisation et tests analytiques dbt
+dbt-duckdb>=1.8.0
+
+# Application web interactive et data visualisation (Sprint 6)
+streamlit>=1.35.0
+plotly>=5.20.0
+
+# Édition des rapports techniques officiels en PDF
+reportlab>=4.0.0
+

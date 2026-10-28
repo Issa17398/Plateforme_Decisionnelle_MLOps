@@ -1,0 +1,51 @@
+{
+  "evaluation_timestamp": "2026-10-27T23:42:38.455423",
+  "test_dataset_size": 3167,
+  "regression": {
+    "model_type": "RandomForestRegressor",
+    "r2_score": 0.8006,
+    "rmse_log": 0.9918,
+    "mae_log": 0.6357,
+    "explained_variance": 0.8006,
+    "mae_real_views": 139939.3,
+    "median_absolute_error_views": 39592.79
+  },
+  "classification": {
+    "model_type": "HistGradientBoostingClassifier",
+    "accuracy": 0.9608,
+    "roc_auc": 0.9871,
+    "f1_score": 0.9121,
+    "precision": 0.9373,
+    "recall": 0.8881,
+    "confusion_matrix": {
+      "true_negatives": 2400,
+      "false_positives": 43,
+      "false_negatives": 81,
+      "true_positives": 643
+    }
+  },
+  "clustering_archetypes": {
+    "cluster_0": {
+      "name": "Prime-Time Long Formats (Séries phares diffusées en soirée)",
+      "description": "Archétype de diffusion n°0"
+    },
+    "cluster_1": {
+      "name": "Teasers & Micro-capsules virales (Formats courts promo)",
+      "description": "Archétype de diffusion n°1"
+    },
+    "cluster_2": {
+      "name": "Shorts & Contenus mobiles verticaux",
+      "description": "Archétype de diffusion n°2"
+    },
+    "cluster_3": {
+      "name": "Programmes après-midi & talk-shows / débats réguliers",
+      "description": "Archétype de diffusion n°3"
+    }
+  },
+  "generated_figures": [
+    "reports/figures/roc_curve.png",
+    "reports/figures/confusion_matrix.png",
+    "reports/figures/regression_actual_vs_predicted.png",
+    "reports/figures/feature_importances.png"
+  ]
+}

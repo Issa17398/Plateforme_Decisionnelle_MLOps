@@ -1,0 +1,9 @@
+senegal_audiovisual:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "data/gold/analytics.duckdb"
+      threads: 4
+      extensions:
+        - parquet

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: silver
+    description: "Données certifiées de la couche Silver au format Parquet"
+    meta:
+      external_location: "data/silver/videos.parquet"
+    tables:
+      - name: videos
+        description: "Table des vidéos nettoyées et typées produite au Sprint 2"

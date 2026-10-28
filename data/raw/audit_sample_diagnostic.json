@@ -1,0 +1,146 @@
+{
+  "audit_metadata": {
+    "timestamp_utc": "2026-10-11T14:54:05.029485+00:00",
+    "pipeline_stage": "STAGE_E_QUALITY_AUDIT",
+    "compliance_policy": "YOUTUBE_TOS_SECTION_III_E",
+    "retention_rule": "VOLATILE_OR_MAX_30_DAYS_TTL",
+    "total_quota_units_used": 6
+  },
+  "channels": {
+    "marodi": {
+      "channel_id": "UCqe0sSESmaQbLFdTExctQLA",
+      "title": "Marodi TV Sénégal",
+      "uploads_playlist_id": "UUqe0sSESmaQbLFdTExctQLA",
+      "sample_count": 5,
+      "total_channel_videos": 6373,
+      "quality": {
+        "score_percent": 100.0,
+        "is_passed": true,
+        "valid_count": 5,
+        "duplicates": []
+      },
+      "sample_items": [
+        {
+          "video_id": "aqbCKWyRhl0",
+          "title": "Série - Jeux de dames - Episodes 16 - Bande annonce",
+          "published_at": "2026-10-11T10:00:22Z",
+          "channel_title": "Marodi TV Sénégal"
+        },
+        {
+          "video_id": "3ItHlvSUOCs",
+          "title": "Moi au moins, un film Marodi. Le 14 octobre au cinéma Pathé, le 15 au Sea Nema, le 16 en salles.",
+          "published_at": "2026-10-10T18:55:52Z",
+          "channel_title": "Marodi TV Sénégal"
+        },
+        {
+          "video_id": "BFVlSITgdLs",
+          "title": "Aichou vous donne rendez-vous à la salle de cinéma pour notre tout premier film.",
+          "published_at": "2026-10-09T21:14:01Z",
+          "channel_title": "Marodi TV Sénégal"
+        },
+        {
+          "video_id": "4sPNzAV90_g",
+          "title": "Série - Jeux de dames - Saison 2 - Episode 15 - VOSTFR",
+          "published_at": "2026-10-09T18:30:35Z",
+          "channel_title": "Marodi TV Sénégal"
+        },
+        {
+          "video_id": "3rbavIg1kZI",
+          "title": "Série - Jeux de dames - Saison 2 - Episode 14 - VOSTFR",
+          "published_at": "2026-10-09T18:00:10Z",
+          "channel_title": "Marodi TV Sénégal"
+        }
+      ]
+    },
+    "evenprod": {
+      "channel_id": "UCKKbOgsOxOT83r1TdfjMaYg",
+      "title": "EvenProd",
+      "uploads_playlist_id": "UUKKbOgsOxOT83r1TdfjMaYg",
+      "sample_count": 5,
+      "total_channel_videos": 2179,
+      "quality": {
+        "score_percent": 100.0,
+        "is_passed": true,
+        "valid_count": 5,
+        "duplicates": []
+      },
+      "sample_items": [
+        {
+          "video_id": "Zn8aUUTGFMM",
+          "title": "FASSÉMA - Saison 2 - Episode 9 : Bande Annonce",
+          "published_at": "2026-10-11T09:00:20Z",
+          "channel_title": "EvenProd"
+        },
+        {
+          "video_id": "BcYVRRW-f3g",
+          "title": "CHAMPIONS – En route pour les JOJ - Episode 1 **VOSTFR**",
+          "published_at": "2026-10-10T19:30:35Z",
+          "channel_title": "EvenProd"
+        },
+        {
+          "video_id": "Wg7qdwXdDnU",
+          "title": "REPORTAGES - Thiaroye sur Mer : L'enfer sous les eaux",
+          "published_at": "2026-10-10T15:14:58Z",
+          "channel_title": "EvenProd"
+        },
+        {
+          "video_id": "HFOh84-wMGk",
+          "title": "BÉTÉ BÉTÉ - Saison 4 - Episode 7 : Bande Annonce",
+          "published_at": "2026-10-10T09:00:04Z",
+          "channel_title": "EvenProd"
+        },
+        {
+          "video_id": "H-SQIUIx8Ko",
+          "title": "REPORTAGES - Hôpital de Touba : Le combat quotidien du service cancérologie : Bande Annonce",
+          "published_at": "2026-10-09T18:09:01Z",
+          "channel_title": "EvenProd"
+        }
+      ]
+    },
+    "pikini": {
+      "channel_id": "UCsPM7wLeuqPGH3IWotRSC-Q",
+      "title": "Pikini Production",
+      "uploads_playlist_id": "UUsPM7wLeuqPGH3IWotRSC-Q",
+      "sample_count": 5,
+      "total_channel_videos": 7280,
+      "quality": {
+        "score_percent": 100.0,
+        "is_passed": true,
+        "valid_count": 5,
+        "duplicates": []
+      },
+      "sample_items": [
+        {
+          "video_id": "LYbY-9CVdy0",
+          "title": "TOUMAAL GOR - EPISODE 05 Bande Annonce",
+          "published_at": "2026-10-10T12:00:17Z",
+          "channel_title": "Pikini Production"
+        },
+        {
+          "video_id": "f1FnNautgbs",
+          "title": "TOUMAAL GOR - EPISODE 04",
+          "published_at": "2026-10-07T18:00:12Z",
+          "channel_title": "Pikini Production"
+        },
+        {
+          "video_id": "aVcvHymTWCQ",
+          "title": "TOUMAAL GOR - EPISODE 04 Bande Annonce",
+          "published_at": "2026-10-06T12:00:23Z",
+          "channel_title": "Pikini Production"
+        },
+        {
+          "video_id": "pJ5JJ2GjV5c",
+          "title": "TOUMAAL GOR - EPISODE 03 - VOSTFR",
+          "published_at": "2026-10-04T18:00:26Z",
+          "channel_title": "Pikini Production"
+        },
+        {
+          "video_id": "9m6w5tYvFd4",
+          "title": "TOUMAAL GOR - EPISODE 03 Bande Annonce",
+          "published_at": "2026-10-03T12:00:14Z",
+          "channel_title": "Pikini Production"
+        }
+      ]
+    }
+  }
+}

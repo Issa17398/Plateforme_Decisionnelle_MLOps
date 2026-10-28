@@ -1,0 +1,44 @@
+# ==============================================================================
+# Fichier .gitignore - Plateforme Décisionnelle & MLOps Audiovisuelle
+# ==============================================================================
+
+# Secrets et Variables d'Environnement
+.env
+*.env
+!.env.example
+
+# Environnements Virtuels Python
+.venv/
+venv/
+env/
+ENV/
+
+# Caches et Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Journaux et Logs d'Exécution
+logs/*
+!logs/.gitkeep
+*.log
+
+# MLflow et Base de Données Interne ML
+mlruns/
+data/ml/mlflow.db
+
+# Artefacts de Compilation dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# Fichiers Temporaires et Caches OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
