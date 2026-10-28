@@ -1,6 +1,12 @@
 # Sénégal Audiovisual Intelligence Platform 🇸🇳 🎬
 
-Plateforme d'ingénierie et d'intelligence des données audiovisuelles sénégalaises, conçue selon l'**Architecture Médaillon** et les meilleures pratiques du Data Engineering moderne.
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Issa17398/Plateforme_D-cisionnelle_MLOps&branch=main&mainModule=app/main.py)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit 1.35+](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B.svg)](https://streamlit.io/)
+[![DuckDB](https://img.shields.io/badge/DuckDB-OLAP-FFF000.svg)](https://duckdb.org/)
+[![Tests Passing](https://img.shields.io/badge/Tests-63%2F63%20Passing-success.svg)](file:///tests/)
+
+Plateforme d'ingénierie et d'intelligence des données audiovisuelles sénégalaises, conçue selon l'**Architecture Médaillon** et les meilleures pratiques du Data Engineering & MLOps moderne.
 
 ---
 
@@ -14,8 +20,8 @@ L'objectif de cette plateforme est de construire pas à pas un pipeline robuste,
 * **Sprint 2 (Couche Silver) — Terminé & Validé :** Moteur SQL analytique local sous **DuckDB**, typage fort, déduplication idempotente, isolation en quarantaine, sérialisation colonnaire en **Apache Parquet**, 38 tests unitaires/intégration et rapport technique PDF.
 * **Sprint 3 (Couche Gold & dbt) — Terminé & Validé :** Modélisation dimensionnelle en étoile avec **dbt-duckdb**, création de `dim_channels` et `fct_videos_performance`, calculs des ratios d'engagement, classification des formats de contenu, 15 tests dbt, 43 tests pytest globaux et rapport technique PDF.
 * **Sprint 4 (Orchestration Airflow & Docker) — Terminé & Validé :** Orchestration conteneurisée du pipeline Médaillon complet avec **Apache Airflow 2.10**, stack Docker (`docker-compose.yml`), DAG mince `senegal_audiovisual_pipeline`, Quality Gate déclaratif, DAG MLOps préparé et 49 tests pytest 100% passants.
-* **Sprint 5 (MLOps & MLflow) — Prochain Sprint :** Feature Store (`src/ml/features.py`), modèles prédictifs d'audience (`src/ml/train.py`, `evaluate.py`) et tracking d'expériences via **MLflow**.
-* **Sprint 6 (Restitution Streamlit) — Cible :** Tableau de bord interactif pour les producteurs et décideurs audiovisuels.
+* **Sprint 5 (MLOps & Expériences ML) — Terminé & Validé :** Feature Store (`src/ml/features.py`), régression d'audience ($R^2 = 0.8006$), classification de Hit ($ROC\text{-}AUC = 0.9871$), segmentation k-Means du public sénégalais, tracking d'expériences via **MLflow** et 61 tests pytest passants.
+* **Sprint 6 (Restitution Streamlit & NLP Bilingue) — Terminé & Validé :** Application web décisionnelle haute lisibilité (Design *Luminous Studio*), 7 onglets interactifs, observatoire comportemental, simulateur d'audience prédictif en direct & test A/B, analyseur NLP des sentiments & commentaires (Français / Wolof) et 63 tests pytest validés à 100%.
 
 ---
 
